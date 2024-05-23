@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+root.title("booking")
+root.geometry("1000x1000")
+img=PhotoImage(file = "starbus.png")
+Label(root, image = img).pack()
+Label(root,text='Online Bus Booking System',fg='red',bg="light blue",font='Calibri 30').pack()
+Label(root,text="NAME : PRIYANSH SAXENA",font="times 15 bold",fg="blue").place(x=650,y=350)
+Label(root,text="ER. No. : 221B280",font="times 15 bold",fg="blue").place(x=690,y=400)
+Label(root,text="MOBILE. No. : 7999689951",font="times 15 bold",fg="blue").place(x=650,y=450)
+Label(root,text='SUBMITTED TO: DR. MAHESH KUMAR',fg='red',bg="light blue",font='Calibri 20').place(x=560,y=500)
+Label(root,text="PROJECT BASED LEARNING",font="times 15 bold",fg="RED").place(x=650,y=550)
+root.mainloop()
